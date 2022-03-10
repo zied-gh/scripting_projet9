@@ -1,0 +1,23 @@
+-m : Afficher un menu textuel
+-v : Afficher les acteurs et version du code
+-h : Afficher le help detaillé
+-g : Afficher le menu graphique
+__________________________________________________
+
+-N : Renommer tous les fichiers et repertoires en miniscule
+eg. ./rename.sh -m [fichier 1] [fichier 2] [fichier n] 
+
+-M : Renommer tous les fichiers et repertoires en majuscule
+eg. ./rename.sh -M [fichier 1] [fichier 2] [fichier n]
+
+-T : Renommer tous les fichiers qui contient un espace
+eg. ./rename.sh -T
+
+-t : Enlever l'extension d'un fichier
+eg. ./rename.sh -t [fichier 1]
+
+-d : Ajouter "_d" aux repertoires passés en paramètres
+eg. ./rename.sh -d [repertoire 1]
+
+-s : Changer l'extensioon d'un fichier passé en paramètres 
+eg. ./rename.sh -d [fichier] [nouvelle extension]
